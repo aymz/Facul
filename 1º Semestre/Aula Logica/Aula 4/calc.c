@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<locale.h>
+main()
+{
+  setlocale(LC_ALL,"portuguese");
+  system("title Calculadora");
+  float a,b,c;
+  int opt;
+  printf("\t ===== Calculadora =====\n");
+  printf("Escolha a operação\n");
+  printf("[1] - Adição\n");
+  printf("[2] - Subtração\n");
+  printf("[3] - Multiplicação\n");
+  printf("[4] - Divisão\n");
+  printf("<<\n");  
+  scanf("%d",&opt);
+  switch(opt){
+   case 1:   		
+   					printf(" === Adição === \n");
+   					printf("Digite dois números\n");
+                    scanf("%f%f",&a,&b);
+                    c=a+b;
+                    printf("Resultado: %.0f\n",c);
+                    break;
+   
+   case 2:   printf("\t === Subtração === \n");
+				   printf("Digite dois números\n");
+                   scanf("%f%f",&a,&b);
+                   c=a-b;
+                   printf("Resultado: %.0f\n",c);
+                   break;
+
+   case 3: 	 printf("\t === Multiplicação === \n");
+   				   printf("Digite dois números\n");
+                   scanf("%f%f",&a,&b);
+                   c=a*b;
+                   printf("Resultado: %.0f\n",c);
+                   break;
+                
+   case 4:   printf("\t === Divisão === \n");
+   				   printf("Digite dois números\n");
+                   scanf("%f%f",&a,&b);
+                   c=a/b;
+                   if(b==0)
+                    printf("Divisão por zero!\n");
+                 else{
+                     
+                     printf("Resultado: %.2f\n",c);
+                    }
+                   break;
+  
+   default: printf("Esta operação não existe!");
+  }
+system("pause");
+}
+

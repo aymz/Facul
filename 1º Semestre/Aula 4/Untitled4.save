@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+main()
+{
+    int s,n;
+    int a,b,c,d;
+
+printf("Ola esse sistema eh pra perguntar qual doença o rafael tem \n");
+
+printf("voce deseja saber? \n ");
+
+printf("Se sim digite s para nao digite n");
+scanf("%d,&s,n");
+if {
+    (s==>n)
+    printf("As doenças selecionadas sao : /n");
+    printf("a) Tetato e Hepatie \n");
+    printf("b) Aidis e Lepra \n");
+    printf("c)Paralisia infantial e Down \n");
+    printf("d) Todas as alternativas \n")
+    scanf("%d,&a,b,c,d");
+    printf("Obrigado por participar .\n");
+
+else 
+printf("Obrigado voce perdeu a oportunidade \n");
+system("pause");
+
+
+
+}
+
+
+}

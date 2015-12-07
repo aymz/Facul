@@ -1,0 +1,10 @@
+#include<stdio.h)
+main(){
+float a,b,c,d;
+printf("Digite quantos carros ha no estacionamento \n");
+scanf("%f",&a);
+a=b*4;
+printf("Existe: %.f",a);
+printf("Pneus de CARROS\n");
+system ("pause");
+}

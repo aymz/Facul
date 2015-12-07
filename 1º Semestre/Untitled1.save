@@ -1,0 +1,11 @@
+#include<stdio.h>
+main(){
+float a,b;
+printf("digite sua idade :\n");
+scanf("%f",&a");
+if(a>=18&&<=69)
+printf("Voce é ORBIGADO(a) votar: /n");
+else
+printf("Voce não é obrigado(a) votar: \n");
+system ("pause");
+}

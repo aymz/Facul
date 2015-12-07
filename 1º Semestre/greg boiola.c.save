@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+float a,b,c;
+printf("digite um numero\n");
+scanf("f%f%",&b,&c);
+a=b+c;
+                                                                              n",a);
+system("pause");
+}

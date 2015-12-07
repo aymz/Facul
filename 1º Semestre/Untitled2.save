@@ -1,0 +1,11 @@
+#include <stdio.h>
+main()
+{
+    float a,b;
+    printf("Para saber o total de pneus e veiculos no estacionamento\n");
+    printf("Digite quantas motos estao estacionados");
+    scanf("%f",&a);
+    printf("Digite quantos carros estao estacionados");
+    scanf("%f",&b);
+    
+}

@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+main()
+{
+    char s,n;
+printf("Ola esse sistema eh pra perguntar qual doença o rafael tem \n");
+printf("voce deseja saber? \n");
+printf("Se sim digite s para nao digite n\n");
+scanf("%d%d",&n1,&n2);
+
+    if(n1==s)
+        {
+    printf("As doenças selecionadas sao : \n");
+    printf("[a] Tetano e Hepatie \n");
+    printf("[b]Aidis e Lepra \n");
+    printf("[c]Paralisia infantial e Down \n");
+    printf("[d] Todas as alternativas \n");
+//   scanf("%d",s);
+    printf("Obrigado por participar .\n");
+    }
+        else;
+    {
+    printf("Obrigado voce perdeu a oportunidade \n");
+    }
+
+system("pause");
+
+}

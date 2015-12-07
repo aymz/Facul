@@ -1,0 +1,21 @@
+//Exercício 2
+#include <stdio.h>
+main()
+{
+    float a,b,c,d,e,f;
+    printf("Para saber o total de pneus e veiculos no estacionamento\n");
+    printf("Digite quantas motos estao estacionados\n");
+    scanf("%f",&a);
+    printf("Digite quantos carros estao estacionados\n");
+    scanf("%f",&b);
+    c=a*2;
+    d=b*4;
+    e=d+c;
+    f=a+b;
+    printf("A quantidade de pneus de motos sao: %.0f\n",c);
+    printf("A quantidade de pneus de carros sao: %.0f\n",d);
+    printf("A quantidade total de pneus sao: %.0f\n",e);
+    printf("A quantidade de veiculos sao: %.0f\n",f);
+system("pause");
+return 0;
+}

@@ -1,0 +1,6 @@
+#include<stdio.>
+main(){
+float a,b,c,d;
+printf("Digite a Quantidade de carros\n");
+scanf("%f%f",%a,%b);
+}
